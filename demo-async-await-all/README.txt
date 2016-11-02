@@ -33,3 +33,7 @@ Update index.html
       https://raw.githubusercontent.com/facebook/regenerator/master/packages/regenerator-runtime/runtime.js
     Renamed to regenerator-runtime.js
   Instead of Promise polyfill and Facebook regenerator, might be able to use babel-polyfill.js. Give it a try.
+
+  You could automate this transpilation step using any number of tools: Gulp, Grunt, WebPack, NPM scripts.
+  I did NOT use any of these tools so that this sample would be easier to follow. If you wanted your
+  project to use transpilation I would recommend you use a tool to automate the transpilation.
